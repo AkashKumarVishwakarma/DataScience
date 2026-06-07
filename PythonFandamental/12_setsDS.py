@@ -81,6 +81,8 @@ b = {4, 5, 6, 7, 8}
 # s = a.symmetric_difference(b)
 # print(s)
 
+
+
 # compound assignment operators
 # a |= b  # Union update
 # print(a)  # Output: {1, 2, 3, 4, 5, 6, 7, 8}
@@ -88,12 +90,11 @@ b = {4, 5, 6, 7, 8}
 # a &= b  # Intersection update
 # print(a)  # Output: {4, 5}
 
-# a -= b  # Difference update
+# a -= b  # Difference
 # print(a)  # Output: {1, 2, 3}
 
-# a ^= b  # Symmetric difference update
-# print(a)  # Output: {1, 2, 3, 6, 7, 8}
-
+a ^= b  # Symmetric difference
+print(a)  # Output: {1, 2, 3, 6, 7, 8}
 
 
 
