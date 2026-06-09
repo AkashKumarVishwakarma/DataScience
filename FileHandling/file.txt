@@ -1,0 +1,2 @@
+Hey i am Creating And Writing file using 'W' mode 
+ Hey i am writing indside exiting file using 'a' mode 
