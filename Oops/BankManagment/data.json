@@ -1,1 +1,18 @@
-[{"name": "Akash", "age": 23, "email": "akash@gmail.com", "pin": 1111, "accountNo": "23^e9sk", "balance": 100}]
+[
+    {
+        "name": "Akash",
+        "age": 18,
+        "email": "akash@",
+        "pin": 1234,
+        "accountNo": "9y90@NS",
+        "balance": 0
+    },
+    {
+        "name": "Akash",
+        "age": 19,
+        "email": "Akash@gmail.com",
+        "pin": 4321,
+        "accountNo": "A6!z3i5",
+        "balance": 11
+    }
+]

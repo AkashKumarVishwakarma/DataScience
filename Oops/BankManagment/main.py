@@ -4,7 +4,6 @@ import string
 from pathlib import Path
 
 
-
 class Bank:
     database = 'data.json'
     data = []
@@ -64,7 +63,7 @@ class Bank:
             print("sorry no data found")
         else:
             amount = int(input("how much you want to depositL:- "))
-            if amount > 10000 and amount < 0:
+            if amount > 10000 or amount < 0:
                 print("sorry the amount is too much you can deposit below 10000 and above 0 .")
             else:
                 # print(userdata)
